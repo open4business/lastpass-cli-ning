@@ -80,6 +80,9 @@ int cmd_logout(int argc, char **argv);
 int cmd_passwd(int argc, char **argv);
 #define cmd_passwd_usage "passwd"
 
+int cmd_openssh(int argc, char **argv);
+#define cmd_openssh_usage "openssh [--sync=auto|now|no] [--long, -l] [-m] [-u] " color_usage " [GROUP]"
+
 int cmd_show(int argc, char **argv);
 #define cmd_show_usage "show [--sync=auto|now|no] [--clip, -c] [--quiet, -q] [--expand-multi, -x] [--json, -j] [--all|--username|--password|--url|--notes|--field=FIELD|--id|--name|--attach=ATTACHID] [--basic-regexp, -G|--fixed-strings, -F] " color_usage " {UNIQUENAME|UNIQUEID}"
 

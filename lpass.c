@@ -63,6 +63,7 @@ static struct {
 	CMD(ls),
 	CMD(mv),
 	CMD(add),
+	CMD(openssh),
 	CMD(edit),
 	CMD(generate),
 	CMD(duplicate),
